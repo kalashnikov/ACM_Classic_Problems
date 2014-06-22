@@ -62,7 +62,6 @@ void qSort(vi& vec, int lo, int hi) {
    // index -1 to comply with index is return by lo+1
    if ( lo < index-1 )
       qSort( vec, lo, index-1 );
-
    if ( index < hi ) 
       qSort( vec, index, hi);
 }
